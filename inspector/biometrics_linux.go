@@ -37,6 +37,7 @@ func GetBiometricCapabilities() (*BiometricCapabilities, error) {
 
 		// Check if fingerprints are enrolled
 		if currentUser, err := user.Current(); err == nil {
+			// #nosec G204 -- username from user.Current() is OS-provided, not user input
 			out, err := exec.Command("fprintd-list", currentUser.Username).Output()
 			if err == nil && strings.Contains(string(out), "fingerprint") {
 				result.FprintdEnrolled = true
