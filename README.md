@@ -11,20 +11,20 @@ A cross-platform security posture assessment tool with Model Context Protocol (M
 ## Features
 
 ### Security Assessment
-- **Platform Security Chip** - Secure Enclave (macOS) / TPM (Windows/Linux) detection and status
-- **Secure Boot** - UEFI/Apple Secure Boot verification
-- **Disk Encryption** - FileVault (macOS), BitLocker (Windows), LUKS (Linux)
-- **Biometrics** - Touch ID, Face ID, Windows Hello, fprintd
-- **Security Summary** - Unified security score with recommendations
+- 🛡️ **Platform Security Chip** - Secure Enclave (macOS) / TPM (Windows/Linux) detection and status
+- 🔐 **Secure Boot** - UEFI/Apple Secure Boot verification
+- 💾 **Disk Encryption** - FileVault (macOS), BitLocker (Windows), LUKS (Linux)
+- 👆 **Biometrics** - Touch ID, Face ID, Windows Hello, fprintd
+- 📊 **Security Summary** - Unified security score with recommendations
 
 ### System Metrics
-- **CPU Usage** - Overall and per-core monitoring
-- **Memory Usage** - Total, used, free, available memory
-- **Process List** - Running processes with resource usage
+- ⚡ **CPU Usage** - Overall and per-core monitoring
+- 🧠 **Memory Usage** - Total, used, free, available memory
+- 📋 **Process List** - Running processes with resource usage
 
 ### Output Formats
-- **JSON** (default) - Structured data for programmatic use
-- **Table** - Rich ASCII tables with ANSI colors and UTF-8 icons
+- 📄 **JSON** (default) - Structured data for programmatic use
+- 🗂️ **Table** - Rich ASCII tables with ANSI colors and UTF-8 icons
 
 ## Installation
 
