@@ -1,9 +1,11 @@
 # Posture
 
-[![Build Status][build-status-svg]][build-status-url]
-[![Lint Status][lint-status-svg]][lint-status-url]
+[![Go CI][go-ci-svg]][go-ci-url]
+[![Go Lint][go-lint-svg]][go-lint-url]
+[![Go SAST][go-sast-svg]][go-sast-url]
 [![Go Report Card][goreport-svg]][goreport-url]
 [![Docs][docs-godoc-svg]][docs-godoc-url]
+[![Visualization][viz-svg]][viz-url]
 [![License][license-svg]][license-url]
 
 A cross-platform security posture assessment tool with Model Context Protocol (MCP) server support. Posture provides unified security inspection across macOS, Windows, and Linux, enabling AI assistants to query hardware security modules, boot security, disk encryption, and biometric capabilities.
@@ -386,15 +388,19 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
- [build-status-svg]: https://github.com/plexusone/posture/actions/workflows/ci.yaml/badge.svg?branch=main
- [build-status-url]: https://github.com/plexusone/posture/actions/workflows/ci.yaml
- [lint-status-svg]: https://github.com/plexusone/posture/actions/workflows/lint.yaml/badge.svg?branch=main
- [lint-status-url]: https://github.com/plexusone/posture/actions/workflows/lint.yaml
+ [go-ci-svg]: https://github.com/plexusone/posture/actions/workflows/go-ci.yaml/badge.svg?branch=main
+ [go-ci-url]: https://github.com/plexusone/posture/actions/workflows/go-ci.yaml
+ [go-lint-svg]: https://github.com/plexusone/posture/actions/workflows/go-lint.yaml/badge.svg?branch=main
+ [go-lint-url]: https://github.com/plexusone/posture/actions/workflows/go-lint.yaml
+ [go-sast-svg]: https://github.com/plexusone/posture/actions/workflows/go-sast-codeql.yaml/badge.svg?branch=main
+ [go-sast-url]: https://github.com/plexusone/posture/actions/workflows/go-sast-codeql.yaml
  [goreport-svg]: https://goreportcard.com/badge/github.com/plexusone/posture
  [goreport-url]: https://goreportcard.com/report/github.com/plexusone/posture
  [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/plexusone/posture
  [docs-godoc-url]: https://pkg.go.dev/github.com/plexusone/posture
+ [viz-svg]: https://img.shields.io/badge/visualizaton-Go-blue.svg
+ [viz-url]: https://mango-dune-07a8b7110.1.azurestaticapps.net/?repo=plexusone%2Fposture
+ [loc-svg]: https://tokei.rs/b1/github/plexusone/posture
+ [repo-url]: https://github.com/plexusone/posture
  [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
  [license-url]: https://github.com/plexusone/posture/blob/master/LICENSE
- [used-by-svg]: https://sourcegraph.com/github.com/plexusone/posture/-/badge.svg
- [used-by-url]: https://sourcegraph.com/github.com/plexusone/posture?badge
