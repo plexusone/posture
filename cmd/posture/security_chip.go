@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/agentplexus/posture/inspector"
+	"github.com/plexusone/posture/inspector"
 	"github.com/spf13/cobra"
 )
 

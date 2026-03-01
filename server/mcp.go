@@ -5,7 +5,7 @@ import (
 
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 
-	"github.com/agentplexus/posture/inspector"
+	"github.com/plexusone/posture/inspector"
 )
 
 // Tool argument types - System metrics

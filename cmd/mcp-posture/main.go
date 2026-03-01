@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/agentplexus/posture/server"
+	"github.com/plexusone/posture/server"
 )
 
 func main() {
