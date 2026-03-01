@@ -30,14 +30,14 @@ A cross-platform security posture assessment tool with Model Context Protocol (M
 
 ### Pre-built Binary
 
-Download the latest release for your platform from the [Releases](https://github.com/agentplexus/posture/releases) page.
+Download the latest release for your platform from the [Releases](https://github.com/plexusone/posture/releases) page.
 
 ### Build from Source
 
 Requires Go 1.23 or later.
 
 ```bash
-git clone https://github.com/agentplexus/posture.git
+git clone https://github.com/plexusone/posture.git
 cd posture
 go build -o posture ./cmd/posture/
 ```
@@ -114,7 +114,7 @@ Import the `inspector` package for programmatic access to all security and syste
 ### Installation
 
 ```bash
-go get github.com/agentplexus/posture
+go get github.com/plexusone/posture
 ```
 
 ### Example: Security Summary
@@ -128,7 +128,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/agentplexus/posture/inspector"
+	"github.com/plexusone/posture/inspector"
 )
 
 func main() {
@@ -160,7 +160,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/agentplexus/posture/inspector"
+	"github.com/plexusone/posture/inspector"
 )
 
 func main() {
@@ -386,15 +386,15 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
- [build-status-svg]: https://github.com/agentplexus/posture/actions/workflows/ci.yaml/badge.svg?branch=main
- [build-status-url]: https://github.com/agentplexus/posture/actions/workflows/ci.yaml
- [lint-status-svg]: https://github.com/agentplexus/posture/actions/workflows/lint.yaml/badge.svg?branch=main
- [lint-status-url]: https://github.com/agentplexus/posture/actions/workflows/lint.yaml
- [goreport-svg]: https://goreportcard.com/badge/github.com/agentplexus/posture
- [goreport-url]: https://goreportcard.com/report/github.com/agentplexus/posture
- [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/agentplexus/posture
- [docs-godoc-url]: https://pkg.go.dev/github.com/agentplexus/posture
+ [build-status-svg]: https://github.com/plexusone/posture/actions/workflows/ci.yaml/badge.svg?branch=main
+ [build-status-url]: https://github.com/plexusone/posture/actions/workflows/ci.yaml
+ [lint-status-svg]: https://github.com/plexusone/posture/actions/workflows/lint.yaml/badge.svg?branch=main
+ [lint-status-url]: https://github.com/plexusone/posture/actions/workflows/lint.yaml
+ [goreport-svg]: https://goreportcard.com/badge/github.com/plexusone/posture
+ [goreport-url]: https://goreportcard.com/report/github.com/plexusone/posture
+ [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/plexusone/posture
+ [docs-godoc-url]: https://pkg.go.dev/github.com/plexusone/posture
  [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
- [license-url]: https://github.com/agentplexus/posture/blob/master/LICENSE
- [used-by-svg]: https://sourcegraph.com/github.com/agentplexus/posture/-/badge.svg
- [used-by-url]: https://sourcegraph.com/github.com/agentplexus/posture?badge
+ [license-url]: https://github.com/plexusone/posture/blob/master/LICENSE
+ [used-by-svg]: https://sourcegraph.com/github.com/plexusone/posture/-/badge.svg
+ [used-by-url]: https://sourcegraph.com/github.com/plexusone/posture?badge

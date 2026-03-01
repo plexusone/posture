@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: agentplexus
+theme: plexusone
 paginate: true
 color: #eaeaea
 style: |
@@ -165,13 +165,13 @@ Start: `posture serve`
 ### 📥 Installation
 
 ```bash
-go get github.com/agentplexus/posture
+go get github.com/plexusone/posture
 ```
 
 ### Import
 
 ```go
-import "github.com/agentplexus/posture/inspector"
+import "github.com/plexusone/posture/inspector"
 ```
 
 ---
@@ -183,7 +183,7 @@ package main
 
 import (
     "fmt"
-    "github.com/agentplexus/posture/inspector"
+    "github.com/plexusone/posture/inspector"
 )
 
 func main() {
@@ -352,12 +352,12 @@ Each feature contributes **25 points** to the total score:
 
 ### Pre-built Binaries
 
-[GitHub Releases](https://github.com/agentplexus/posture/releases)
+[GitHub Releases](https://github.com/plexusone/posture/releases)
 
 ### Build from Source
 
 ```bash
-git clone https://github.com/agentplexus/posture.git
+git clone https://github.com/plexusone/posture.git
 cd posture
 go build -o posture ./cmd/posture/
 ```
@@ -365,7 +365,7 @@ go build -o posture ./cmd/posture/
 ### Go Module
 
 ```bash
-go get github.com/agentplexus/posture
+go get github.com/plexusone/posture
 ```
 
 ---
@@ -500,7 +500,7 @@ for _, rec := range summary.Recommendations {
 
 # Resources 📚
 
-- **GitHub**: [github.com/agentplexus/posture](https://github.com/agentplexus/posture)
+- **GitHub**: [github.com/plexusone/posture](https://github.com/plexusone/posture)
 - **MCP Specification**: [modelcontextprotocol.io](https://modelcontextprotocol.io)
 - **MCP Go SDK**: [github.com/modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk)
 - **Claude Desktop**: [claude.ai/download](https://claude.ai/download)
@@ -511,7 +511,7 @@ for _, rec := range summary.Recommendations {
 
 ```bash
 # Install
-go install github.com/agentplexus/posture/cmd/posture@latest
+go install github.com/plexusone/posture/cmd/posture@latest
 
 # Check your security posture
 posture summary -f table
@@ -530,4 +530,4 @@ posture serve
 
 💻 CLI | 🤖 MCP Server | 📦 Go Module
 
-[github.com/agentplexus/posture](https://github.com/agentplexus/posture)
+[github.com/plexusone/posture](https://github.com/plexusone/posture)

@@ -85,11 +85,11 @@ Add to your Claude Desktop configuration:
 ### Go Module
 
 ```bash
-go get github.com/agentplexus/posture
+go get github.com/plexusone/posture
 ```
 
 ```go
-import "github.com/agentplexus/posture/inspector"
+import "github.com/plexusone/posture/inspector"
 
 summary, err := inspector.GetSecuritySummary()
 fmt.Printf("Security Score: %d/100\n", summary.OverallScore)
@@ -99,14 +99,14 @@ fmt.Printf("Security Score: %d/100\n", summary.OverallScore)
 
 ### Pre-built Binaries
 
-Download from the [Releases](https://github.com/agentplexus/posture/releases) page.
+Download from the [Releases](https://github.com/plexusone/posture/releases) page.
 
 ### Build from Source
 
 Requires Go 1.23 or later.
 
 ```bash
-git clone https://github.com/agentplexus/posture.git
+git clone https://github.com/plexusone/posture.git
 cd posture
 go build -o posture ./cmd/posture/
 ```

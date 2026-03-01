@@ -46,14 +46,14 @@ This change:
 
 ### Pre-built Binaries
 
-Download from the [Releases](https://github.com/agentplexus/posture/releases) page:
+Download from the [Releases](https://github.com/plexusone/posture/releases) page:
 - `posture` - CLI tool for manual security assessment
 - `mcp-posture` - MCP server for AI assistants
 
 ### Build from Source
 
 ```bash
-git clone https://github.com/agentplexus/posture.git
+git clone https://github.com/plexusone/posture.git
 cd posture
 
 # Build CLI tool
