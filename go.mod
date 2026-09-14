@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/mattn/go-runewidth v0.0.29
-	github.com/modelcontextprotocol/go-sdk v1.7.0
+	github.com/modelcontextprotocol/go-sdk v1.8.0
 	github.com/shirou/gopsutil/v4 v4.26.8
 	github.com/spf13/cobra v1.10.2
 	github.com/yusufpapurcu/wmi v1.2.4
