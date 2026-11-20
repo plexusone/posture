@@ -97,7 +97,9 @@ func GetEncryptionStatus() (*EncryptionResult, error) {
 
 				if !found {
 					// Check if device exists in /dev/mapper
-					_, err := os.Stat(filepath.Join(dmMapperPath, name))
+					// crypttab is untrusted input: reduce the name to a single
+					// path element so it cannot escape /dev/mapper.
+					_, err := os.Stat(filepath.Join(dmMapperPath, filepath.Base(name)))
 					status := "configured_inactive"
 					if err == nil {
 						status = "configured_active"
